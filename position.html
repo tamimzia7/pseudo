@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positions</title>
+    <style>
+        .dummy{
+            border: solid 2px;
+            width: 200px;
+            height: 200px;
+        }
+        .another{
+            border: solid 5px;
+        }
+        /* .swim-container{
+            position: relative;
+            /* ekhon r possition carbe na sudu pareant r tulanai sare jabe mane akter opar ekta pic bosbe */
+        
+         */
+        .box {
+            border: 5px dotted blue;
+            width: 300px;
+        }
+        /* .ring{
+            position: sticky;
+            top: 0px;
+            
+            
+        } */
+         .ring{
+            position: fixed;
+         }
+/* 
+        .ring {
+              position: relative;
+            left: 50px;
+            top: 40px; 
+            position: absolute;
+            top: 50px;
+            left: 70px;
+
+        } */
+    </style>
+</head>
+
+<body>
+    <h3> CSS Positions</h3>
+    <ol>
+        <!---flow related-->
+        <li>Satic</li>
+        <li>Relatives <small>(current position r relative a koto toko change habe.and don not live current
+                position)</small></li>
+        <li> Absolute <small>( will lose won position and will move based on  the root . )</small></li>
+        <!--scroll related-->
+        <li> Fixed</li>
+        <li>Sticky</li>
+    </ol>
+    <div class="swim-container">
+
+        <div class="box boy"><img src="images/download (1).jpg" alt="" srcset=""></div>
+        <div class="box ring"><img src="images/download.jpg" alt="" srcset=""></div>
+        <div class="box whater"><img src="images/download (3).jpg" alt="" srcset=""></div>
+        
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+
+
+
+    </div>
+    <div class="another">
+        <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+    <div class="dummy"></div>
+   
+    </div>
+</body>
+
+</html>
